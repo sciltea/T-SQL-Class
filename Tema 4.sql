@@ -14,6 +14,9 @@ SELECT RIGHT(lastname, 3) AS 'Last Name' FROM [HR].[Employees]  order by empid
 --LEFT (Transact-SQL)
 SELECT left(lastname, 2) AS 'Last Name' FROM [HR].[Employees]  order by empid
 
+--REPLICATE()
+SELECT REPLICATE('Test', 5);
+
 --TRANSLATE (Transact-SQL)
 SELECT TRANSLATE('3x[3+4]/{4-2}', '[]{}', '()()');
 
